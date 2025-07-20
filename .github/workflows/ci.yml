@@ -22,4 +22,6 @@ jobs:
             - name: "Clone the Repository"
               uses: actions/checkout@v2  # This way to clone through github action. 
             #   run: git clone <path>   Another way to clone the project through git command
-            
+
+            - name: "Install the Dependencies"
+              run: npm install
